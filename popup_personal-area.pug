@@ -1,0 +1,14 @@
+include ../modules/all_modules
+
+.personal_area.hidden 
+	.personal_area-body(id="test-popup")
+		.personal_area-content 	
+			a(href="#").cross x
+			img(src="../../images/person.svg", alt="images")
+			p.text Войти в личный кабинет
+			+input-phone
+			+input-parol
+			a(href="#").parol Забыли пароль?
+			+cnobCabinet-mobile
+			.text__bottom Впервые у нас? 
+				a(href="#") Зарегистрироваться
